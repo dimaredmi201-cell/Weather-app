@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css" integrity="sha512-QeR2VH+lsBE5LSAe1Q5EnTBbe7XTBubt8dG93Y7gidSgdMCr8nVqKcfKAMyN96SV8KDbZVTDXChatu5G2KQGzg==" crossorigin="anonymous" referrerpolicy="no-referrer">
+        <title>Weather App</title>
+    </head>
+    <body>
+     <div class="main-container">
+          <div class="search-bar">
+                   <input class="search-input">
+                <button class="search-icon">
+                  <i class="fas fa-search"></i>
+                </button>
+          </div>
+             <div class="weather-container">
+                  <div class="weather-icon">
+                            <img class="weather-icon-img" alt="weather-icon-img" src="img/sun.png" width="170" >
+                  </div>  
+               <div class="temperature">1°С</div>
+               <div class="city-name">Szczecin</div>
+            </div>
+            <div class="weather-info">
+                <div class="humidity">
+                      <i class="fas fa-tint data-icon"></i>
+                    <div class="humidity-details">
+                                <span>60%</span>
+                                <p>Humidity</p>                     
+                    </div>
+                </div>
+                <div class="wind-speed">
+                      <i class="fas fa-wind data-icon"></i>
+                    <div class="wind-speed-details">
+                                <span>60 km/h</span>
+                                <p>Wind speed</p>                     
+                    </div>
+                </div>
+            </div>              
+        </div>
+        <script type="module" src="script.js"></script>
+    </body>
+</html>
